@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: #ffc420;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.glow {
+  text-shadow: 0 0 8px #ffc420, 0 0 16px #ffc420;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ffc420;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
